@@ -1,0 +1,65 @@
+2025-09-04 14:17:52,128 - INFO - === Fixed continuous data collector ===
+2025-09-04 14:17:52,128 - INFO - Mission: vertical_med
+2025-09-04 14:17:52,128 - INFO - Waypoints (absolute coordinates): [(0, 0, 0.4), (0, 0, 0.8), (0, 0, 0.4)]
+2025-09-04 14:17:52,129 - INFO - Callback->Connection initialized[radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:17:52,381 - INFO - We are connected[radio://0/80/2M/E7E7E7E7E6], request connection setup
+2025-09-04 14:17:52,381 - INFO - Request _request_protocol_version()
+2025-09-04 14:17:52,387 - INFO - Callback->Connected to [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:17:52,392 - INFO - _crt_service_callback
+2025-09-04 14:17:52,393 - INFO - Request protocol version
+2025-09-04 14:17:52,397 - INFO - _platform_callback
+2025-09-04 14:17:52,397 - INFO - Protocol version (platform): 9
+2025-09-04 14:17:52,408 - INFO - TOC for port [5] found in cache
+2025-09-04 14:17:52,408 - INFO - Log TOC finished updating
+2025-09-04 14:17:52,411 - INFO - 6 memories found
+2025-09-04 14:17:52,496 - INFO - Memories finished updating
+2025-09-04 14:17:52,501 - INFO - TOC for port [2] found in cache
+2025-09-04 14:17:53,123 - INFO - Param TOC finished updating
+2025-09-04 14:17:53,123 - INFO - Callback->Connection setup finished [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:17:53,124 - INFO - Connected: radio://0/80/2M/E7E7E7E7E6
+2025-09-04 14:17:53,135 - INFO - Have successfully started logging for id=1
+2025-09-04 14:17:53,233 - INFO - Battery: 4.08V (safe)
+2025-09-04 14:17:53,235 - INFO - Battery check passed: 4.08V
+2025-09-04 14:17:53,235 - INFO - Initializing position estimator to origin...
+2025-09-04 14:17:53,240 - INFO - Have successfully stopped logging for id=1
+2025-09-04 14:17:53,241 - INFO - Have successfully deleted id=1
+2025-09-04 14:17:54,726 - INFO - All parameters updated
+2025-09-04 14:17:54,726 - INFO - Callback->Connection completed [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:17:54,838 - INFO - Have successfully started logging for id=2
+2025-09-04 14:18:02,833 - INFO - Waiting for position estimator...
+2025-09-04 14:18:02,836 - INFO - Have successfully stopped logging for id=2
+2025-09-04 14:18:02,837 - INFO - Have successfully deleted id=2
+2025-09-04 14:18:02,845 - INFO - Have successfully started logging for id=3
+2025-09-04 14:18:03,845 - INFO - Position estimator ready
+2025-09-04 14:18:03,846 - INFO - Controller parameters optimized
+2025-09-04 14:18:03,849 - INFO - Have successfully stopped logging for id=3
+2025-09-04 14:18:03,850 - INFO - Have successfully deleted id=3
+2025-09-04 14:18:16,146 - INFO - Start collection (slot:10ms)
+2025-09-04 14:18:16,147 - INFO - Data collector started
+2025-09-04 14:18:16,148 - INFO - Position manager started
+2025-09-04 14:18:16,161 - INFO - Have successfully started logging for id=4
+2025-09-04 14:18:16,162 - INFO - Have successfully started logging for id=5
+2025-09-04 14:18:16,166 - INFO - Have successfully started logging for id=6
+2025-09-04 14:18:16,248 - INFO - Position manager data flow is normal
+2025-09-04 14:18:18,249 - INFO - Current position: (0.045, 0.046, -0.009, 89.6°)
+2025-09-04 14:18:18,249 - INFO - Using absolute coordinate system, ignoring takeoff position offset
+2025-09-04 14:18:19,249 - INFO - Pre-flight stabilization to first waypoint: (0.000, 0.000, 0.400)
+2025-09-04 14:18:19,403 - INFO - Waypoint1: absolute coordinates(0.000, 0.000, 0.400, yaw=90.0°)
+2025-09-04 14:18:19,403 - INFO - Flying to coordinate: (0.000, 0.000, 0.400)
+2025-09-04 14:18:29,403 - WARNING - Waypoint timeout 10.0s (final error may still be acceptable)
+2025-09-04 14:18:29,403 - WARNING - Waypoint1 not fully reached, continuing execution
+2025-09-04 14:18:30,003 - INFO - Waypoint2: absolute coordinates(0.000, 0.000, 0.800, yaw=90.0°)
+2025-09-04 14:18:30,003 - INFO - Flying to coordinate: (0.000, 0.000, 0.800)
+2025-09-04 14:18:30,871 - INFO - Have successfully stopped logging for id=6
+2025-09-04 14:18:30,966 - INFO - Position manager stopped
+2025-09-04 14:18:30,968 - INFO - Stopping data collector...
+2025-09-04 14:18:30,970 - INFO - Collection complete - stats: {'created': 1482, 'complete': 1481, 'merged': 0, 'dropped': 0}
+2025-09-04 14:18:30,978 - INFO - Have successfully stopped logging for id=4
+2025-09-04 14:18:30,980 - INFO - Have successfully stopped logging for id=5
+2025-09-04 14:18:31,023 - INFO - Data saved: training_data/vertical_med_20250904_141830.json
+2025-09-04 14:18:31,023 - INFO - States: 1481, Commands: 1113, Duration: 14.8s
+2025-09-04 14:18:31,023 - INFO - Successfully saved 1481 state data points
+2025-09-04 14:18:31,023 - INFO - Successfully saved 1113 control commands
+2025-09-04 14:18:31,023 - INFO - Closing link
+2025-09-04 14:18:31,024 - INFO - Callback->Disconnected from [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:18:31,091 - INFO - User interrupted

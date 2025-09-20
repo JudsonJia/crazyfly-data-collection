@@ -1,0 +1,85 @@
+2025-09-05 14:26:12,155 - INFO - === Fixed continuous data collector ===
+2025-09-05 14:26:12,155 - INFO - Mission: square_large
+2025-09-05 14:26:12,155 - INFO - Waypoints (absolute coordinates): [(0, 0, 0.5), (0.7, 0, 0.5), (0.7, 0.7, 0.5), (0, 0.7, 0.5), (0, 0, 0.5)]
+2025-09-05 14:26:12,156 - INFO - Callback->Connection initialized[radio://0/80/2M/E7E7E7E7E6]
+2025-09-05 14:26:12,406 - INFO - We are connected[radio://0/80/2M/E7E7E7E7E6], request connection setup
+2025-09-05 14:26:12,406 - INFO - Request _request_protocol_version()
+2025-09-05 14:26:12,409 - INFO - Callback->Connected to [radio://0/80/2M/E7E7E7E7E6]
+2025-09-05 14:26:12,486 - INFO - _crt_service_callback
+2025-09-05 14:26:12,486 - INFO - Request protocol version
+2025-09-05 14:26:12,491 - INFO - _platform_callback
+2025-09-05 14:26:12,491 - INFO - Protocol version (platform): 9
+2025-09-05 14:26:12,503 - INFO - TOC for port [5] found in cache
+2025-09-05 14:26:12,503 - INFO - Log TOC finished updating
+2025-09-05 14:26:12,507 - INFO - 6 memories found
+2025-09-05 14:26:12,588 - INFO - Memories finished updating
+2025-09-05 14:26:12,597 - INFO - TOC for port [2] found in cache
+2025-09-05 14:26:13,074 - INFO - Param TOC finished updating
+2025-09-05 14:26:13,074 - INFO - Callback->Connection setup finished [radio://0/80/2M/E7E7E7E7E6]
+2025-09-05 14:26:13,075 - INFO - Connected: radio://0/80/2M/E7E7E7E7E6
+2025-09-05 14:26:13,084 - INFO - Have successfully started logging for id=1
+2025-09-05 14:26:13,185 - INFO - Battery: 4.13V (safe)
+2025-09-05 14:26:13,185 - INFO - Battery check passed: 4.13V
+2025-09-05 14:26:13,185 - INFO - Initializing position estimator to origin...
+2025-09-05 14:26:13,188 - INFO - Have successfully stopped logging for id=1
+2025-09-05 14:26:13,189 - INFO - Have successfully deleted id=1
+2025-09-05 14:26:14,366 - INFO - All parameters updated
+2025-09-05 14:26:14,366 - INFO - Callback->Connection completed [radio://0/80/2M/E7E7E7E7E6]
+2025-09-05 14:26:14,476 - INFO - Have successfully started logging for id=2
+2025-09-05 14:26:20,970 - INFO - Waiting for position estimator...
+2025-09-05 14:26:20,972 - INFO - Have successfully stopped logging for id=2
+2025-09-05 14:26:20,974 - INFO - Have successfully deleted id=2
+2025-09-05 14:26:20,978 - INFO - Have successfully started logging for id=3
+2025-09-05 14:26:21,977 - INFO - Position estimator ready
+2025-09-05 14:26:21,977 - INFO - Controller parameters optimized
+2025-09-05 14:26:21,980 - INFO - Have successfully stopped logging for id=3
+2025-09-05 14:26:21,981 - INFO - Have successfully deleted id=3
+2025-09-05 14:26:31,013 - INFO - Start collection (slot:10ms)
+2025-09-05 14:26:31,014 - INFO - Data collector started
+2025-09-05 14:26:31,015 - INFO - Position manager started
+2025-09-05 14:26:31,023 - INFO - Have successfully started logging for id=4
+2025-09-05 14:26:31,025 - INFO - Have successfully started logging for id=5
+2025-09-05 14:26:31,027 - INFO - Have successfully started logging for id=6
+2025-09-05 14:26:31,115 - INFO - Position manager data flow is normal
+2025-09-05 14:26:33,116 - INFO - Current position: (0.007, 0.049, -0.004, 90.3°)
+2025-09-05 14:26:33,116 - INFO - Using absolute coordinate system, ignoring takeoff position offset
+2025-09-05 14:26:34,116 - INFO - Pre-flight stabilization to first waypoint: (0.000, 0.000, 0.500)
+2025-09-05 14:26:34,266 - INFO - Waypoint1: absolute coordinates(0.000, 0.000, 0.500, yaw=90.0°)
+2025-09-05 14:26:34,266 - INFO - Flying to coordinate: (0.000, 0.000, 0.500)
+2025-09-05 14:26:35,226 - INFO - Approaching target (error=0.150m), entering stabilization phase
+2025-09-05 14:26:35,766 - INFO - Reached waypoint (error=0.030m, stable_count=30)
+2025-09-05 14:26:36,366 - INFO - Waypoint2: absolute coordinates(0.700, 0.000, 0.500, yaw=90.0°)
+2025-09-05 14:26:36,366 - INFO - Flying to coordinate: (0.700, 0.000, 0.500)
+2025-09-05 14:26:37,327 - INFO - Approaching target (error=0.130m), entering stabilization phase
+2025-09-05 14:26:39,267 - INFO - Reached waypoint (error=0.055m, stable_count=30)
+2025-09-05 14:26:39,867 - INFO - Waypoint3: absolute coordinates(0.700, 0.700, 0.500, yaw=90.0°)
+2025-09-05 14:26:39,867 - INFO - Flying to coordinate: (0.700, 0.700, 0.500)
+2025-09-05 14:26:40,677 - INFO - Approaching target (error=0.128m), entering stabilization phase
+2025-09-05 14:26:41,367 - INFO - Reached waypoint (error=0.014m, stable_count=30)
+2025-09-05 14:26:41,967 - INFO - Waypoint4: absolute coordinates(0.000, 0.700, 0.500, yaw=90.0°)
+2025-09-05 14:26:41,967 - INFO - Flying to coordinate: (0.000, 0.700, 0.500)
+2025-09-05 14:26:43,128 - INFO - Approaching target (error=0.150m), entering stabilization phase
+2025-09-05 14:26:45,158 - INFO - Reached waypoint (error=0.071m, stable_count=30)
+2025-09-05 14:26:45,760 - INFO - Waypoint5: absolute coordinates(0.000, 0.000, 0.500, yaw=90.0°)
+2025-09-05 14:26:45,760 - INFO - Flying to coordinate: (0.000, 0.000, 0.500)
+2025-09-05 14:26:46,620 - INFO - Approaching target (error=0.142m), entering stabilization phase
+2025-09-05 14:26:47,060 - INFO - Reached waypoint (error=0.038m, stable_count=30)
+2025-09-05 14:26:47,660 - INFO - Returning to origin and landing...
+2025-09-05 14:26:47,660 - INFO - Flying to coordinate: (0.000, 0.000, 0.200)
+2025-09-05 14:26:48,320 - INFO - Approaching target (error=0.143m), entering stabilization phase
+2025-09-05 14:26:49,060 - INFO - Reached waypoint (error=0.050m, stable_count=30)
+2025-09-05 14:26:49,061 - INFO - Landing...
+2025-09-05 14:26:49,062 - INFO - Landing complete
+2025-09-05 14:26:49,065 - INFO - Have successfully stopped logging for id=6
+2025-09-05 14:26:49,162 - INFO - Position manager stopped
+2025-09-05 14:26:49,164 - INFO - Flight mission complete
+2025-09-05 14:26:49,164 - INFO - Stopping data collector...
+2025-09-05 14:26:49,166 - INFO - Collection complete - stats: {'created': 1815, 'complete': 1815, 'merged': 0, 'dropped': 0}
+2025-09-05 14:26:49,175 - INFO - Have successfully stopped logging for id=4
+2025-09-05 14:26:49,176 - INFO - Have successfully stopped logging for id=5
+2025-09-05 14:26:49,230 - INFO - Data saved: training_data/square_large_20250905_142649.json
+2025-09-05 14:26:49,230 - INFO - States: 1815, Commands: 1245, Duration: 18.1s
+2025-09-05 14:26:49,231 - INFO - Successfully saved 1815 state data points
+2025-09-05 14:26:49,231 - INFO - Successfully saved 1245 control commands
+2025-09-05 14:26:49,231 - INFO - Closing link
+2025-09-05 14:26:49,231 - INFO - Callback->Disconnected from [radio://0/80/2M/E7E7E7E7E6]

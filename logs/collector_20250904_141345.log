@@ -1,0 +1,24 @@
+2025-09-04 14:13:45,991 - INFO - === Fixed continuous data collector ===
+2025-09-04 14:13:45,991 - INFO - Mission: vertical_med
+2025-09-04 14:13:45,991 - INFO - Waypoints (absolute coordinates): [(0, 0, 0.4), (0, 0, 0.8), (0, 0, 0.4)]
+2025-09-04 14:13:45,992 - INFO - Callback->Connection initialized[radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:13:46,242 - INFO - We are connected[radio://0/80/2M/E7E7E7E7E6], request connection setup
+2025-09-04 14:13:46,243 - INFO - Request _request_protocol_version()
+2025-09-04 14:13:46,249 - INFO - Callback->Connected to [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:13:46,253 - INFO - _crt_service_callback
+2025-09-04 14:13:46,253 - INFO - Request protocol version
+2025-09-04 14:13:46,258 - INFO - _platform_callback
+2025-09-04 14:13:46,258 - INFO - Protocol version (platform): 9
+2025-09-04 14:13:46,273 - INFO - TOC for port [5] found in cache
+2025-09-04 14:13:46,273 - INFO - Log TOC finished updating
+2025-09-04 14:13:46,277 - INFO - 6 memories found
+2025-09-04 14:13:46,365 - INFO - Memories finished updating
+2025-09-04 14:13:46,372 - INFO - TOC for port [2] found in cache
+2025-09-04 14:13:47,032 - INFO - Param TOC finished updating
+2025-09-04 14:13:47,032 - INFO - Callback->Connection setup finished [radio://0/80/2M/E7E7E7E7E6]
+2025-09-04 14:13:47,033 - INFO - Connected: radio://0/80/2M/E7E7E7E7E6
+2025-09-04 14:13:47,043 - INFO - Have successfully started logging for id=1
+2025-09-04 14:13:47,142 - INFO - Battery: 3.79V (low)
+2025-09-04 14:13:47,144 - ERROR - Battery voltage too low: 3.79V < 3.8V
+2025-09-04 14:13:47,144 - INFO - Closing link
+2025-09-04 14:13:47,146 - INFO - Callback->Disconnected from [radio://0/80/2M/E7E7E7E7E6]
