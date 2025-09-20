@@ -2,6 +2,12 @@
 
 A comprehensive data collection framework for autonomous drone trajectory recording using Crazyflie 2.1. This system captures high-frequency flight data including position, velocity, attitude, and acceleration for machine learning research.
 
+The following pictures showing our data collection environment:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/871da981-ce22-471c-940e-c4fd14b1b611" width="45%" />
+  <img src="https://github.com/user-attachments/assets/8ad24636-8b4b-4509-ab20-f7ab40dd7a1e" width="45%" />
+</p>
+
 ## Features
 
 - **Real-time Data Collection**: Continuous logging at 100Hz with time-synchronized multi-sensor fusion
