@@ -182,5 +182,5 @@ The delay tester provides recommendations for optimal time slot configuration ba
 
 ## Related Work
 
-- [Drone Trajectory LSTM](https://github.com/yourusername/drone-trajectory-lstm) - Model training using data from this collection system
+- [Drone Trajectory LSTM](https://github.com/JudsonJia/drone-trajectory-lstm/tree/main) - Model training using data from this collection system
 
